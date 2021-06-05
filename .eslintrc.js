@@ -15,10 +15,11 @@ module.exports = {
     indent: [2, 2],
     'comma-dangle': 0,
     quotes: [2, 'single'],
-    'implicit-arrow-linebreak': 0,
+    'implicit-arrow-linebreak': 2,
     'no-trailing-spaces': 0,
+    "arrow-body-style": [2, "always"],
     'max-len': [1, {
-      code: 120,
+      code: 140,
     }],
     'object-property-newline': [2, {
       allowAllPropertiesOnSameLine: false,
