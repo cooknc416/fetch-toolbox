@@ -1,0 +1,33 @@
+{
+  "name": "fetch-toolbox",
+  "version": "1.0.0",
+  "description": "Fetch utilities made with TypeScript",
+  "repository": "git@github.com:cooknc416/fetch-toolbox.git",
+  "author": "Nathan Cook <cooknc416@gmail.com>",
+  "license": "MIT",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "@typescript-eslint/eslint-plugin": "^4.26.0",
+    "@typescript-eslint/parser": "^4.26.0",
+    "esbuild": "^0.12.6",
+    "eslint": "^7.28.0",
+    "eslint-config-airbnb-typescript": "^12.3.1",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-modules-newline": "^0.0.6",
+    "jest": "^27.0.4",
+    "rollup": "^2.50.6",
+    "rollup-plugin-dts": "^3.0.2",
+    "rollup-plugin-esbuild": "^4.5.0",
+    "ts-jest": "^27.0.2",
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "D": "^1.0.0"
+  }
+}
