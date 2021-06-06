@@ -1,7 +1,7 @@
 import esbuild from 'rollup-plugin-esbuild';
 import dts from 'rollup-plugin-dts';
 
-export default [{
+const options = [{
   input: 'src/index.ts',
   output: {
     file: 'build/index.js',
@@ -20,3 +20,5 @@ export default [{
     dts()
   ]
 }];
+
+export default options;

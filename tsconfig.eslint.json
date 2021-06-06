@@ -11,9 +11,8 @@
     "declaration": true
   },
   "include": [
-    "src"
-  ],
-  "exclude": [
-    "build"
+    ".eslintrc.js",
+    "jest.config.ts",
+    "rollup.config.js"
   ]
 }
