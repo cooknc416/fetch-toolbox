@@ -5,7 +5,10 @@ module.exports = {
   plugins: ['modules-newline'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
-    project: 'tsconfig.json',
+    project: [
+      'tsconfig.json',
+      'tsconfig.eslint.json'
+    ],
   },
   env: {
     browser: true,
@@ -17,7 +20,7 @@ module.exports = {
     quotes: [2, 'single'],
     'implicit-arrow-linebreak': 2,
     'no-trailing-spaces': 0,
-    "arrow-body-style": [2, "always"],
+    'arrow-body-style': [2, 'always'],
     'max-len': [1, {
       code: 140,
     }],
